@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kunj/pallet/install/semseg/lib/python3.8/site-packages",
+        "/home/kunj/pallet/install/pallet_processing/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kunj/pallet/install/semseg/lib/python3.8/site-packages",
+        "/home/kunj/pallet/install/pallet_processing/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
+}
