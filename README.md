@@ -95,4 +95,14 @@ To process sample data, simply run the nodes as shown above. Publish sample imag
 ---
 
 ## 🎉 Acknowledgments
-This project leverages open-source contributions from the ROS and AI communities. Special thanks to [SegFormer](https://github.com/NVIDIA/semantic-segmentation) (semnatic segmentation model) and [YOLOv5](https://github.com/ultralytics/yolov5) (object detection model)for their models and insights.
+This project leverages open-source contributions from the ROS and AI communities. Special thanks to [SegFormer](https://github.com/NVIDIA/semantic-segmentation) (semantic segmentation model) and [YOLOv5](https://github.com/ultralytics/yolov5) (object detection model) for their models and insights.
+
+---
+
+## 📊 Test Results
+In the `src/my_package/test_results` folder, you'll find an example of the pipeline’s output on a sample image. This includes:
+- The **original image**
+- The **YOLO-processed image** with bounding boxes
+- The **segmented image** from SegFormer
+
+These samples demonstrate the model’s effectiveness in detecting and segmenting pallets in real warehouse environments.
