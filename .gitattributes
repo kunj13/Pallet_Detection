@@ -1,0 +1,2 @@
+src/my_package/config/groundingdino_swint_ogc.pth filter=lfs diff=lfs merge=lfs -text
+src/my_package/config/segformer.b3.ade.pth filter=lfs diff=lfs merge=lfs -text
