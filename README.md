@@ -41,9 +41,9 @@ To get started, clone the repository and install all dependencies!
 For accurate pallet detection and segmentation, download the pretrained model weights from Google Drive:
 
 Download the config folder for the following - [Download here from Google Drive](https://drive.google.com/drive/folders/1FcEHy29rdMRAS52c0Sp4se8oW6ygwvz5?usp=sharing)
-- **Custom YOLO Detection Weights**
-- **Custom SegFormer Segmentation Weights**
-- **Custom Grounding Dino weights**
+- **Custom YOLO Detection Weights** - Best.pt
+- **Custom SegFormer Segmentation Weights** - segformer.b3.ade.pth
+- **Custom Grounding Dino weights** - groundingdino_swint_ogc.pth
 
 > **After downloading**: Place these weights in the `src/my_package/config/` directory of your workspace.
 
