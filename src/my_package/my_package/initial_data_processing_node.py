@@ -27,8 +27,8 @@ class InitialDataProcessingNode(Node):
         self.bridge = CvBridge()
 
         # Load Grounding DINO model
-        config_path = 'src/GroundingDINO/GroundingDINO_SwinT_OGC.py'  # Adjust with your config path
-        weights_path = 'src/GroundingDINO'  # Adjust with your weights path
+        config_path = 'my_package/my_package/GroundingDINO_SwinT_OGC.py'  # Adjust with your config path
+        weights_path = 'my_package/config/groundingdino_swint_ogc.pth'  # Adjust with your weights path
         self.model = load_model(config_path, weights_path)
 
         # Prediction settings

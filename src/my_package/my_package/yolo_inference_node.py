@@ -22,7 +22,7 @@ class YOLODetectionNode(Node):
         
         # YOLO model setup
         self.bridge = CvBridge()
-        weights_path = 'src/yolov5/best.pt'  # Update this path
+        weights_path = 'my_package/config/best.pt'  # Update this path
         self.model = YOLO(weights_path)  # Instantiate your YOLO model
         self.model.conf = 0.13  # Confidence threshold
         self.model.classes = [0, 1]  # Detect classes 'pallet' and 'ground'
