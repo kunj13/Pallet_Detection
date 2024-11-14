@@ -95,4 +95,4 @@ To process sample data, simply run the nodes as shown above. Publish sample imag
 ---
 
 ## 🎉 Acknowledgments
-This project leverages open-source contributions from the ROS and AI communities. Special thanks to [SegFormer](https://github.com/NVIDIA/semantic-segmentation) and [YOLOv5](https://github.com/ultralytics/yolov5) for their models and insights.
+This project leverages open-source contributions from the ROS and AI communities. Special thanks to [SegFormer](https://github.com/NVIDIA/semantic-segmentation) (semnatic segmentation model) and [YOLOv5](https://github.com/ultralytics/yolov5) (object detection model)for their models and insights.
