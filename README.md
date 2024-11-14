@@ -1,10 +1,6 @@
-Here’s a ready-to-copy version for your README:
-
----
-
 # 🚀 Pallet Detection and Segmentation with ROS2 and Custom AI Models
 
-Welcome to the **Pallet Detection and Segmentation** project! This repository leverages **ROS2** and **deep learning models** for real-time object detection and segmentation of pallets within manufacturing or warehousing environments. Designed to support mobile robotics applications, this project enables efficient pallet tracking and scene understanding on-the-go!
+Welcome to the **Pallet Detection and Segmentation** project! This repository leverages **ROS2** and **deep learning models** for real-time object detection and segmentation of pallets in manufacturing or warehousing environments. Designed to support mobile robotics applications, this project enables efficient pallet tracking and scene understanding on-the-go!
 
 ## 🌟 Project Overview
 In dynamic warehouse environments, accurate detection and segmentation of pallets are critical for automated handling and inventory management. This project combines object detection (using YOLO) and semantic segmentation (using SegFormer) into a cohesive ROS2 pipeline. Whether you’re building an inventory bot or managing a smart warehouse, this system’s modular design ensures adaptability and easy integration.
@@ -42,12 +38,14 @@ To get started, clone the repository and install all dependencies!
     ```
 
 ### 💾 Model Checkpoints
-For accurate pallet detection and segmentation, download the pretrained model weights:
+For accurate pallet detection and segmentation, download the pretrained model weights from Google Drive:
 
-- **YOLO Detection Weights**: [Download here](#)  
-- **SegFormer Segmentation Weights**: [Download here](#)
+Download the config folder for the following - [Download here from Google Drive](https://drive.google.com/drive/folders/1FcEHy29rdMRAS52c0Sp4se8oW6ygwvz5?usp=sharing)
+- **Custom YOLO Detection Weights**
+- **Custom SegFormer Segmentation Weights**
+- **Custom Grounding Dino weights**
 
-> **Place weights in**: `src/pallet_processing/checkpoints/`
+> **After downloading**: Place these weights in the `src/my_package/config/` directory of your workspace.
 
 ---
 
@@ -90,7 +88,7 @@ To process sample data, simply run the nodes as shown above. Publish sample imag
 ---
 
 ## 🛠️ Troubleshooting
-- **Model Loading Errors**: Double-check that the model weights are correctly downloaded and placed in the `checkpoints` directory.
+- **Model Loading Errors**: Double-check that the model weights are correctly downloaded and placed in the `config` directory.
 - **Topic Compatibility**: Ensure your image topics are compatible with the nodes’ required format (`rgb8` for example).
 - **Performance on CPU**: This project performs best on a GPU. Running on a CPU may significantly slow down inference.
 
@@ -98,7 +96,3 @@ To process sample data, simply run the nodes as shown above. Publish sample imag
 
 ## 🎉 Acknowledgments
 This project leverages open-source contributions from the ROS and AI communities. Special thanks to [SegFormer](https://github.com/NVIDIA/semantic-segmentation) and [YOLOv5](https://github.com/ultralytics/yolov5) for their models and insights.
-
----
-
-Get started and bring automation to your warehouse! 🚀 Happy pallet tracking!
